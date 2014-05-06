@@ -1,0 +1,1453 @@
+2013-10-12 01:31:15 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\html\cakephp-2.4.0\app\Controller\AppController.php, line 24]
+2013-10-12 01:31:15 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /html/cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 24, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 24, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-12 23:50:53 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-12 23:51:24 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Model\Model.php(3310): Model->setSource('posts')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Model\Model.php(2750): Model->getDataSource()
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\app\Controller\PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-10-12 23:56:32 Error: [MissingViewException] View file "C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\html\\cakephp-2.4.0\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-13 00:06:49 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 18]
+2013-10-13 00:06:49 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 00:11:15 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 18]
+2013-10-13 00:11:15 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 00:11:56 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 18]
+2013-10-13 00:11:56 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 00:16:21 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 18]
+2013-10-13 00:16:21 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 18, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 01:14:38 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-13 01:18:50 Error: [MissingViewException] View file "C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\html\\cakephp-2.4.0\\app\\View\\Posts\\view.ctp',
+)
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-13 01:23:52 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp, line 3]
+2013-10-13 01:23:52 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 01:24:11 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp, line 3]
+2013-10-13 01:24:11 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 01:24:16 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp, line 3]
+2013-10-13 01:24:16 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 3, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 01:24:53 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp, line 5]
+2013-10-13 01:24:53 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 5, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 5, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-13 16:57:41 Error: [NotFoundException] Invalid post
+Request URL: /html/cakephp-2.4.0/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-14 04:47:59 Error: Fatal Error (1): Call to undefined function setFlash() in [C:\wamp\www\html\cakephp-2.4.0\app\Controller\PostsController.php, line 29]
+2013-10-14 04:47:59 Error: [FatalErrorException] Call to undefined function setFlash()
+Request URL: /html/cakephp-2.4.0/posts/add
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\htm...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\htm...', 29, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\htm...', 29, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-14 04:49:27 Error: [MissingActionException] Action PostsController::function.preg-match() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'function.preg-match',
+)
+Request URL: /html/cakephp-2.4.0/posts/function.preg-match
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-14 21:25:35 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\html\cakephp-2.4.0\app\Controller\PostsController.php, line 53]
+2013-10-14 21:25:35 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 53, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 53, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-14 21:25:57 Error: Fatal Error (4): syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 26]
+2013-10-14 21:25:57 Error: [FatalErrorException] syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 26, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 26, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-14 21:25:57 Error: Fatal Error (4): syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 26]
+2013-10-14 21:25:58 Error: [FatalErrorException] syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 26, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 26, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 01:14:24 Error: [MissingControllerException] Controller class PaegsController could not be found.
+Exception Attributes: array (
+  'class' => 'PaegsController',
+  'plugin' => NULL,
+)
+Request URL: /html/cakephp-2.4.0/paegs/
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-15 22:02:21 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\html\cakephp-2.4.0\app\Model\Post.php, line 12]
+2013-10-15 22:02:21 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 12, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 12, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 22:03:00 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ')' in [C:\wamp\www\html\cakephp-2.4.0\app\Model\Post.php, line 14]
+2013-10-15 22:03:00 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ')'
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 22:05:04 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ')' in [C:\wamp\www\html\cakephp-2.4.0\app\Model\Post.php, line 14]
+2013-10-15 22:05:04 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ')'
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 22:05:23 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\html\cakephp-2.4.0\app\Model\Post.php, line 14]
+2013-10-15 22:05:23 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 14, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 22:30:23 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\add.ctp, line 8]
+2013-10-15 22:30:23 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /html/cakephp-2.4.0/posts/add
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 8, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 8, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-15 19:41:36 Error: [Exception] DateTime::__construct() [<a href='http://php.net/datetime.--construct'>datetime.--construct</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for '-4.0/DST' instead
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(1058): DateTime->__construct('2013-10-11 07:1...')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(962): CakeResponse->_getUTCDate(1381489806)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Filter\AssetDispatcher.php(63): CakeResponse->modified(1381489806)
+#3 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#6 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-10-15 19:41:36 Error: [Exception] DateTime::__construct() [<a href='http://php.net/datetime.--construct'>datetime.--construct</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for '-4.0/DST' instead
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(1058): DateTime->__construct('2013-10-11 07:1...')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(962): CakeResponse->_getUTCDate(1381489806)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Filter\AssetDispatcher.php(63): CakeResponse->modified(1381489806)
+#3 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#6 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-10-15 19:41:36 Error: [Exception] DateTime::__construct() [<a href='http://php.net/datetime.--construct'>datetime.--construct</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for '-4.0/DST' instead
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(1058): DateTime->__construct('2013-10-11 07:1...')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Network\CakeResponse.php(962): CakeResponse->_getUTCDate(1381489806)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Filter\AssetDispatcher.php(63): CakeResponse->modified(1381489806)
+#3 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#6 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-10-16 00:00:04 Error: [Exception] DateTime::__construct() [<a href='http://php.net/datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (@0000-00-00 00:00:00) at position 8 (-): Double timezone specification
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Utility\CakeTime.php(254): DateTime->__construct('@0000-00-00 00:...')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\Helper\TimeHelper.php(147): CakeTime::convert('0000-00-00 00:0...', NULL)
+#2 C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp(27): TimeHelper->convert('0000-00-00 00:0...')
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(929): include('C:\wamp\www\htm...')
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\htm...', Array)
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(462): View->_render('C:\wamp\www\htm...')
+#6 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-10-16 00:02:16 Error: [Exception] DateTimeZone::__construct() [<a href='datetimezone.--construct'>datetimezone.--construct</a>]: Unknown or bad timezone (America/New York)
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Utility\CakeTime.php(289): DateTimeZone->__construct('America/New Yor...')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Utility\CakeTime.php(259): CakeTime::timezone('America/New Yor...')
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\Helper\TimeHelper.php(147): CakeTime::convert(1381881736, 'America/New Yor...')
+#3 C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp(27): TimeHelper->convert(1381881736, 'America/New Yor...')
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(929): include('C:\wamp\www\htm...')
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\htm...', Array)
+#6 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(462): View->_render('C:\wamp\www\htm...')
+#7 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#8 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#9 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-10-16 00:08:29 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 27]
+2013-10-16 00:08:29 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\htm...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\htm...', 27, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\htm...', 27, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-16 00:09:10 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\index.ctp, line 27]
+2013-10-16 00:09:10 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\htm...', 27, Array)
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\htm...', 27, Array)
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-16 02:05:28 Error: [MissingHelperException] Helper class EmailHelper could not be found.
+Exception Attributes: array (
+  'class' => 'EmailHelper',
+  'plugin' => false,
+)
+Request URL: /html/cakephp-2.4.0/posts/view/13
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Email')
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(818): HelperCollection->__isset('Email')
+#2 C:\wamp\www\html\cakephp-2.4.0\app\View\Posts\view.ctp(7): View->__get('Email')
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(929): include('C:\wamp\www\htm...')
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\htm...', Array)
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(462): View->_render('C:\wamp\www\htm...')
+#6 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-10-16 02:05:50 Error: [MissingHelperException] Helper class EmailHelper could not be found.
+Exception Attributes: array (
+  'class' => 'EmailHelper',
+  'plugin' => false,
+)
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(867): HelperCollection->load('Email', Array)
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-10-16 02:05:53 Error: [MissingHelperException] Helper class EmailHelper could not be found.
+Exception Attributes: array (
+  'class' => 'EmailHelper',
+  'plugin' => false,
+)
+Request URL: /html/cakephp-2.4.0/posts
+Stack Trace:
+#0 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(867): HelperCollection->load('Email', Array)
+#1 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 C:\wamp\www\html\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\html\cakephp-2.4.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-11-18 19:21:43 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/blog
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 19:22:06 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/post
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:15:38 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\cakePHP\app\Controller\AppController.php, line 39]
+2013-11-18 23:15:38 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakePHP/posts
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 23:16:57 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\cakePHP\app\Controller\AppController.php, line 39]
+2013-11-18 23:16:57 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakePHP/posts
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 23:17:01 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\cakePHP\app\Controller\AppController.php, line 39]
+2013-11-18 23:17:01 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakePHP/posts
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 39, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 23:17:50 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\wamp\www\cakePHP\app\Controller\AppController.php, line 43]
+2013-11-18 23:17:50 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /cakePHP/posts
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 43)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 43, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 43, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 23:22:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/images/back.jpg
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:23:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:23:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:24:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:25:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:25:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:25:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-18 23:26:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/img/footer.png
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-19 00:23:35 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\cakePHP\app\Controller\AppController.php, line 40]
+2013-11-19 00:23:35 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakePHP/posts
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 40, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 40, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 00:24:21 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:24:54 Error: Fatal Error (1): Call to undefined function echo__() in [C:\wamp\www\cakePHP\app\View\Users\add.ctp, line 5]
+2013-11-19 00:24:54 Error: [FatalErrorException] Call to undefined function echo__()
+Request URL: /cakePHP/users/add
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 5, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\cak...', 5, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 00:26:12 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [C:\wamp\www\cakePHP\app\Model\User.php, line 8]
+2013-11-19 00:26:12 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /cakePHP/users/add
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', 'C:\wamp\www\cak...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', 'C:\wamp\www\cak...', 8, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', 'C:\wamp\www\cak...', 8, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 00:27:15 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:29:14 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:29:58 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:30:00 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:30:07 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 00:30:15 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/post
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-19 01:25:54 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakePHP\app\View\Layouts\default.ctp, line 42]
+2013-11-19 01:25:54 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakePHP/users/login
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 01:26:15 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakePHP\app\View\Layouts\default.ctp, line 42]
+2013-11-19 01:26:15 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakePHP/users/login
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 01:29:34 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 01:29:53 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/users/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 01:42:11 Error: [MissingActionException] Action UsersController::Posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Posts',
+)
+Request URL: /cakePHP/Users/Posts/index.ctp
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 01:44:11 Error: [MissingActionException] Action UsersController::Posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Posts',
+)
+Request URL: /cakePHP/Users/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 01:46:08 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:00:42 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:01:47 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\cakePHP\app\Controller\UsersController.php, line 41]
+2013-11-19 02:01:47 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakePHP/Users/add
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 41, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 41, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 02:14:09 Error: [MissingActionException] Action PostsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logout',
+)
+Request URL: /cakePHP/Posts/logout
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 02:14:27 Error: [MissingActionException] Action PostsController::Users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'Users',
+)
+Request URL: /cakePHP/Posts/Users/logout
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 02:19:45 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\cakePHP\app\View\Layouts\default.ctp, line 46]
+2013-11-19 02:19:45 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakePHP/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 02:21:58 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakePHP/posts/display/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 02:29:11 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakePHP/Users/login
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-19 02:34:08 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:35:36 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:35:54 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\cakePHP\app\Controller\PostsController.php, line 29]
+2013-11-19 02:35:54 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakePHP/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 29, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 29, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 02:35:55 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\cakePHP\app\Controller\PostsController.php, line 29]
+2013-11-19 02:35:55 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakePHP/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 29, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 29, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 02:36:14 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:37:06 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:38:25 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:39:23 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-19 02:45:01 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\cakePHP\app\View\Layouts\default.ctp, line 46]
+2013-11-19 02:45:01 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /cakePHP/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-19 02:46:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakePHP\app\View\Layouts\default.ctp, line 46]
+2013-11-19 02:46:00 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakePHP/Posts/index
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#2 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 46, Array)
+#3 C:\wamp\www\cakePHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-20 03:26:56 Error: [MissingViewException] View file "C:\wamp\www\cakePHP\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakePHP\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakePHP/Users
+Stack Trace:
+#0 C:\wamp\www\cakePHP\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakePHP\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakePHP\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-20 05:35:55 Error: [MissingControllerException] Controller class VacaController could not be found.
+Exception Attributes: array (
+  'class' => 'VacaController',
+  'plugin' => NULL,
+)
+Request URL: /cakePHP/vaca
+Stack Trace:
+#0 C:\wamp\www\cakePHP\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:08:24 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /html/test
+Stack Trace:
+#0 C:\wamp\www\html\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:21:11 Error: [MissingActionException] Action PostsController::jumbotron.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jumbotron.css',
+)
+Request URL: /test2/Posts/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:21:11 Error: [MissingActionException] Action PostsController::bootstrap() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'bootstrap',
+)
+Request URL: /test2/Posts/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:22:27 Error: [MissingActionException] Action PostsController::jumbotron.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jumbotron.css',
+)
+Request URL: /test2/Posts/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:22:37 Error: [MissingActionException] Action PostsController::jumbotron.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jumbotron.css',
+)
+Request URL: /test2/Posts/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:25:27 Error: [MissingActionException] Action PostsController::jumbotron.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jumbotron.css',
+)
+Request URL: /test2/Posts/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:25:55 Error: [MissingActionException] Action PostsController::jumbotron.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jumbotron.css',
+)
+Request URL: /test2/Posts/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:28:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /test2/css/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:28:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /test2/css/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:32:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /test2/css/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:32:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /test2/css/jumbotron.css
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-01 23:44:44 Error: [MissingActionException] Action PostsController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index.php',
+)
+Request URL: /test2/Posts/index.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-01 23:49:39 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\wamp\www\test2\app\View\Layouts\default.ctp, line 51]
+2014-05-01 23:49:39 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /test2/Posts/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 51, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 51, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-01 23:55:33 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\test2\app\View\Layouts\default.ctp, line 49]
+2014-05-01 23:55:33 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /test2/posts/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 49, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 49, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 00:06:46 Error: [MissingActionException] Action PostsController::django.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'django.php',
+)
+Request URL: /test2/posts/django.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 00:07:27 Error: [MissingActionException] Action PostsController::posts.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'posts.php',
+)
+Request URL: /test2/posts/posts.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 00:10:02 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\test2\app\Controller\PostsController.php, line 8]
+2014-05-02 00:10:02 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /test2/posts/posts.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 8, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 8, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 00:10:30 Error: [MissingActionException] Action PostsController::posts.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'posts.php',
+)
+Request URL: /test2/posts/posts.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 00:19:27 Error: [MissingActionException] Action PostsController::django() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'django',
+)
+Request URL: /test2/posts/django
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 01:23:06 Error: [MissingActionException] Action PostsController::django() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'django',
+)
+Request URL: /test2/posts/django
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 01:48:06 Error: [MissingActionException] Action PostsController::login.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'login.php',
+)
+Request URL: /test2/posts/login.php
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 17:35:28 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:35:45 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:35:46 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:38:01 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:38:05 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:38:36 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:38:38 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:38:39 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:40:07 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\index.ctp',
+)
+Request URL: /test2/users/index
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 17:51:29 Error: [MissingControllerException] Controller class Login.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Login.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /test2/login.ctp
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-02 17:52:33 Error: [MissingActionException] Action PostsController::goals() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'goals',
+)
+Request URL: /test2/posts/goals
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 18:00:29 Error: Fatal Error (4): syntax error, unexpected T_ARRAY in [C:\wamp\www\test2\app\View\Posts\index.ctp, line 22]
+2014-05-02 18:00:29 Error: [FatalErrorException] syntax error, unexpected T_ARRAY
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 22, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 22, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 18:04:38 Error: [MissingActionException] Action PostsController::django() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'django',
+)
+Request URL: /test2/posts/django
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 19:09:24 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\test2\lib\Cake\View\View.php(818): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\test2\app\View\Layouts\default.ctp(84): View->__get('Auth')
+#3 C:\wamp\www\test2\lib\Cake\View\View.php(929): include('C:\wamp\www\tes...')
+#4 C:\wamp\www\test2\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\tes...', Array)
+#5 C:\wamp\www\test2\lib\Cake\View\View.php(523): View->_render('C:\wamp\www\tes...')
+#6 C:\wamp\www\test2\lib\Cake\View\View.php(470): View->renderLayout('', 'default')
+#7 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#8 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#9 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 19:11:15 Error: Fatal Error (1): Call to a member function check() on a non-object in [C:\wamp\www\test2\app\View\Layouts\default.ctp, line 55]
+2014-05-02 19:11:15 Error: [FatalErrorException] Call to a member function check() on a non-object
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\tes...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\tes...', 55, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\tes...', 55, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 19:12:38 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\test2\lib\Cake\View\View.php(818): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\test2\app\View\Layouts\default.ctp(55): View->__get('Auth')
+#3 C:\wamp\www\test2\lib\Cake\View\View.php(929): include('C:\wamp\www\tes...')
+#4 C:\wamp\www\test2\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\tes...', Array)
+#5 C:\wamp\www\test2\lib\Cake\View\View.php(523): View->_render('C:\wamp\www\tes...')
+#6 C:\wamp\www\test2\lib\Cake\View\View.php(470): View->renderLayout('', 'default')
+#7 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#8 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#9 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 19:13:35 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\test2\app\View\Layouts\default.ctp, line 55]
+2014-05-02 19:13:35 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 55, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 55, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 19:13:52 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\test2\lib\Cake\View\View.php(818): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\test2\app\View\Layouts\default.ctp(77): View->__get('Auth')
+#3 C:\wamp\www\test2\lib\Cake\View\View.php(929): include('C:\wamp\www\tes...')
+#4 C:\wamp\www\test2\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\tes...', Array)
+#5 C:\wamp\www\test2\lib\Cake\View\View.php(523): View->_render('C:\wamp\www\tes...')
+#6 C:\wamp\www\test2\lib\Cake\View\View.php(470): View->renderLayout('', 'default')
+#7 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#8 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#9 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-03 00:24:35 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /test2/user/
+Stack Trace:
+#0 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 00:24:48 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /test2/users/edit/15
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 00:26:38 Error: [MissingViewException] View file "C:\wamp\www\test2\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\test2\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /test2/users/edit/14
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\test2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\test2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\test2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 00:29:27 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\test2\app\View\Users\edit.ctp, line 11]
+2014-05-03 00:29:27 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /test2/users/edit/14
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 11, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 11, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 01:06:20 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\test2\app\Controller\AppController.php, line 62]
+2014-05-03 01:06:20 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /test2/users
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 01:06:33 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\test2\app\Controller\AppController.php, line 62]
+2014-05-03 01:06:33 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 01:06:34 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\test2\app\Controller\AppController.php, line 62]
+2014-05-03 01:06:34 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 01:06:39 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\test2\app\Controller\AppController.php, line 62]
+2014-05-03 01:06:39 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /test2/posts
+Stack Trace:
+#0 C:\wamp\www\test2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#2 C:\wamp\www\test2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tes...', 62, Array)
+#3 C:\wamp\www\test2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
